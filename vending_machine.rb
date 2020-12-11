@@ -1,25 +1,4 @@
 
-# @@stocks = [{name: "オレンジ", price: 200},{name:"りんご", price: 300}]
-
-# puts "いらっしゃいませ\n飲み物を選んでください"
-
-# stocks.each_with_index do |drink, index|
-#   puts "#{index} #{drink[:name]} 価格: #{drink[:price]}"
-# end
-
-# # choice = gets.to_i
-
-# puts "#{stocks[choice][:name]}を選択しました"
-# puts "お金を入れてください"
-# money = gets.to_i
-
-# if stocks[choice][:price] < money
-#   left = money - stocks[choice][:price]
-#   puts "お釣りは#{left}円です"
-# elsif stocks[choice][:price] > money
-#   puts "最初からやり直してください"
-# end
-
 stocks = [{name:"水",price:120},{name:"りんごジュース",price:150},{name:"コーラ",price:200}]
 
 puts "いらっしゃいませ､飲み物のボタンを押してください"
